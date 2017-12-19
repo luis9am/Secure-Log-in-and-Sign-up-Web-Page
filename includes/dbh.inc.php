@@ -6,17 +6,10 @@
  * Time: 5:40 PM
  */
 
-/*
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "project3";
-*/
-
-$dbServername = "earth.cs.utep.edu";
-$dbUsername = "lamireles";
-$dbPassword = "cs5339!lamireles";
-$dbName = "lamireles";
+$dbName = "userTable";
 
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
