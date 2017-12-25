@@ -3,14 +3,14 @@ Project implements secure sign up to users through a web page that handles log i
 
 -------
 
-## Secure Web-Based Systems Fall 2017
-## CS 4339/5339 Professor L. Longpr´e
-## Assignment 3
+### Secure Web-Based Systems Fall 2017
+### CS 4339/5339 Professor L. Longpr´e
+### Assignment 3
 
 In this assignment you will implement the authentication part of a generic
 web-based system.
 
-## Motivation
+### Motivation
 Nowadays, almost every web-based system include an authentication module
 where users need sign in to access some features of the system. Attackers
 attempt to bypass the authentication to get unauthorized access. There are
@@ -22,7 +22,7 @@ not more burdensome for the legitimate user. In this assignment, you will
 implement such an authentication module that you should be able to import
 into future web-based systems.
 
-## Overview
+### Overview
 Your web site will have three types of users: visitors, regular users and
 administrators. The regular users and administrators information will be
 stored in a MySQL database. Access to a page will depend on which type of
@@ -34,7 +34,7 @@ Your web site should have:
 3. a page for signed in users named user.php,
 4. a page for administrators named admin.php.
 
-## Access
+### Access
 mainpage.php and signin.php can be accessed by all visitors.
 user.php can be only accessed by regular users and administrators.
 admin.php can only be accessed by administrators.
@@ -42,7 +42,7 @@ Trying to access a page where access is denied should display an appropriate
 error message, for example, “you need to be logged in as an administrator to
 access this page” instead of displaying the regular contents of the page.
 
-## Page contents
+### Page contents
 All pages should have a sign in button if the visitor is not signed in, and a
 sign out button otherwise.
 All pages should have links to the other accessible pages, and no link to not
@@ -54,7 +54,7 @@ admin.php should have a form to add new users. The form should allow
 adding either regular users or administrators. It should also have a link or
 button to display the list of registered users.
 
-## Users database
+### Users database
 You will need a database with a table of registered users. You can choose
 to either have separate tables for regular and registered users, or have only
 one table with a field indicating if the user is regular or administrator. In
